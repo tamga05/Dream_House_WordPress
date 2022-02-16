@@ -3,10 +3,10 @@
 // Переменные для путей
 define('THEME_ROOT', get_template_directory_uri());
 
-define('CSS_DIR', THEME_ROOT . '/assets/css');
-define('MAGNIFIC_DIR', THEME_ROOT . '/assets/magnific-popup');
+// define('CSS_DIR', THEME_ROOT . '/assets/css');
+// define('MAGNIFIC_DIR', THEME_ROOT . '/assets/magnific-popup');
 define('IMG_DIR', THEME_ROOT . '/assets/images');
-define('JS_DIR', THEME_ROOT . '/assets');
+// define('JS_DIR', THEME_ROOT . '/assets');
 
 // Навешивание функций на события с помощью хуков
 add_action( 'wp_enqueue_scripts', 'dream_house_style' );
@@ -47,8 +47,8 @@ function theme_register_nav_menu() {
 
 function dream_house_style() {
 	wp_enqueue_style( 'normalize-style', get_template_directory_uri() . '/assets/css/normalize.css' );
+	wp_enqueue_style( 'magnific-style', get_template_directory_uri() . '/assets/magnific-popup/magnific-popup.css' );
 	wp_enqueue_style( 'main-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'magnific-style', get_template_directory_uri() . '/assets/magnific-popup//magnific-popup.css' );
 }
 
 function dream_house_scripts() {
@@ -56,10 +56,14 @@ function dream_house_scripts() {
 	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' );
 	wp_enqueue_script( 'jquery' );
 
+	// Не подключаются эти скрипты //
 
-// Не подключаются эти скрипты //
-	wp_enqueue_script( 'swiper-script', 'https://unpkg.com/swiper@8/swiper-bundle.min.js', array(''), null, true );
+	// Swiper сейчас подключен через CDN в header и в footer, но НЕ работает!!! //
+	// wp_enqueue_script( 'swiper-script', 'https://unpkg.com/swiper@8/swiper-bundle.min.js', array(''), null, true );
+
+	// Magnific Popup сейчас подключен, но НЕ работает как положено!!! ..
 	wp_enqueue_script( 'magnific-script', get_template_directory_uri() . '/assets/magnific-popup/jquery.magnific-popup.min.js', array('jquery'), null, true );
+
 	wp_enqueue_script( 'main-script', get_template_directory_uri() . '/assets/main.js', array('jquery'), null, true );
 }
 

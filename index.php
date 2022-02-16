@@ -32,28 +32,28 @@
 
             <div class="gallery__photos">
 
-                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img1.png">
-                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img1.png" alt="image1">
+                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img1.png">
+                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img1.png" alt="image1">
                 </a>
 
-                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img2.png">
-                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img2.png" alt="image2">
+                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img2.png">
+                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img2.png" alt="image2">
                 </a>
 
-                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img3.png">
-                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img3.png" alt="image3">
+                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img3.png">
+                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img3.png" alt="image3">
                 </a>
 
-                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img4.png">
-                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img4.png" alt="image4">
+                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img4.png">
+                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img4.png" alt="image4">
                 </a>
 
-                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img5.png">
-                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img5.png" alt="image5">
+                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img5.png">
+                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img5.png" alt="image5">
                 </a>
 
-                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img6.png">
-                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?> ./assets/images/gallery/img6.png" alt="image6">
+                <a class="gallery__photos-wrapper test-popup-link" href="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img6.png">
+                    <img class="gallery__photos-image" src="<?php bloginfo( 'template_url' ); ?>/assets/images/gallery/img6.png" alt="image6">
                 </a>
 
             </div>
