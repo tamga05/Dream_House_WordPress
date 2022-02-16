@@ -1,0 +1,32 @@
+
+/* Подключение шрифтов */
+
+@font-face {
+    font-family: "New York Extra Large Bold";
+    font-display: swap;
+    src: url("NewYorkExtraLargeBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "SFUI Display Bold";
+    font-display: swap;
+    src: url("SFUIDisplay-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "SFUI Display Light";
+    font-display: swap;
+    src: url("SFUIDisplay-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "SFUI Display Regular";
+    font-display: swap;
+    src: url("SFUIDisplay-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "SFUI Display Semibold";
+    font-display: swap;
+    src: url("SFUIDisplay-Semibold.woff") format("woff");
+}
