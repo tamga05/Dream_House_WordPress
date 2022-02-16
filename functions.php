@@ -61,7 +61,7 @@ function dream_house_scripts() {
 	// Swiper сейчас подключен через CDN в header и в footer, но НЕ работает!!! //
 	// wp_enqueue_script( 'swiper-script', 'https://unpkg.com/swiper@8/swiper-bundle.min.js', array(''), null, true );
 
-	// Magnific Popup сейчас подключен, но НЕ работает как положено!!! ..
+	// Magnific Popup сейчас подключен, но НЕ работает как положено!!! //
 	wp_enqueue_script( 'magnific-script', get_template_directory_uri() . '/assets/magnific-popup/jquery.magnific-popup.min.js', array('jquery'), null, true );
 
 	wp_enqueue_script( 'main-script', get_template_directory_uri() . '/assets/main.js', array('jquery'), null, true );
